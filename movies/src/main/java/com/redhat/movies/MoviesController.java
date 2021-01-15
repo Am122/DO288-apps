@@ -1,7 +1,7 @@
 package com.redhat.movies;
 
+import java.util.List
 import java.util.ArrayList;
-import java.io.File;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
