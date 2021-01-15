@@ -1,7 +1,6 @@
 package com.redhat.movies;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.io.File;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,7 +13,6 @@ public class MoviesController {
 
     private List<Movie> movies;
     private String status = "OK";
-    private String flag = "READY";
 
     @GetMapping("/movies")
     public List<Movie> getAllMovies() {
